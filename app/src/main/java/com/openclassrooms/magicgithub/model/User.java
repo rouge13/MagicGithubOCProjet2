@@ -27,6 +27,7 @@ public class User {
      */
     public static User random(){
         return FAKE_USERS_RANDOM.get(new Random().nextInt(FAKE_USERS_RANDOM.size()));
+        // A bien comprendre.
     }
 
     @Override
